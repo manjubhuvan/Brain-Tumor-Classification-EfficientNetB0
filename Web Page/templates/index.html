@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🧠 Brain Tumor Classifier</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+  <h1>🧠 Brain Tumor Classification using EfficientNet</h1>
+  <p>Upload an MRI image to classify the tumor type.</p>
+
+  <form action="/predict" method="post" enctype="multipart/form-data">
+    <input type="file" name="file" accept="image/*" required><br>
+    <input type="submit" value="Predict">
+  </form>
+
+  <footer>© 2025 Brain Tumor Classifier | Developed by Srinivas</footer>
+</body>
+</html>

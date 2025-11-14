@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Result - Brain Tumor Classifier</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+  <h1>🧠 Prediction Result</h1>
+  <h2>Tumor Type: <span style="color:#4dd0e1;">{{ prediction }}</span></h2>
+  <h3>Confidence: {{ confidence }}%</h3>
+
+  <div>
+    <img src="{{ image_url }}" alt="Uploaded MRI Image">
+  </div>
+
+  <a href="/" class="button">🔙 Upload Another Image</a>
+
+  <footer>© 2025 Brain Tumor Classifier | Developed by Srinivas</footer>
+</body>
+</html>

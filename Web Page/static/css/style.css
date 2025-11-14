@@ -1,0 +1,88 @@
+/* ---------- GLOBAL ---------- */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+h1, h2, h3 {
+    color: #00bcd4;
+    margin-bottom: 15px;
+}
+
+a {
+    color: #00bcd4;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #26c6da;
+}
+
+/* ---------- UPLOAD FORM ---------- */
+form {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 25px;
+    border-radius: 12px;
+    width: 50%;
+    margin: 60px auto;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+input[type=file] {
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    border: none;
+}
+
+input[type=submit] {
+    background-color: #00bcd4;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+input[type=submit]:hover {
+    background-color: #0097a7;
+}
+
+/* ---------- IMAGE DISPLAY ---------- */
+img {
+    width: 320px;
+    margin: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.4);
+}
+
+/* ---------- BUTTON / LINK ---------- */
+.button {
+    display: inline-block;
+    background-color: #00bcd4;
+    padding: 10px 18px;
+    color: white;
+    border-radius: 8px;
+    margin-top: 20px;
+    transition: 0.3s;
+}
+
+.button:hover {
+    background-color: #008c9e;
+}
+
+/* ---------- FOOTER ---------- */
+footer {
+    margin-top: 40px;
+    font-size: 14px;
+    color: #ddd;
+}
